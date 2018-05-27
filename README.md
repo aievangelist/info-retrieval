@@ -58,22 +58,22 @@ https://archive.ics.uci.edu/ml/datasets/Sentence+Classification
 - First all filenames are read from training_set folder and training_set folder.
 - Each file has multiple lines. Each line starts with the "label" and than "sentence" seperated by "tab".
 - Files are read and preprocessing is applied. 
--- stopwords removed
--- label and sentence separated
+  - stopwords removed
+  - label and sentence separated
 - Labels and sentences are saved in separate files after preprocessing
 - Sentences are converted into vectors using Sklearn function "TfidfVectorizer()".
 - Labels are read as list and used as labels for the classifiers.
 - 3 built in SKlearn classifiers are used for this exercise.
--- MultinomialNB (Naive Bayes)
--- NearestCentroid (Rocchio)
--- KNeighborsClassifier
+  - MultinomialNB (Naive Bayes)
+  - NearestCentroid (Rocchio)
+  - KNeighborsClassifier
 - Files from "training_set" folder are used for training
 - Files from "test_set" folder are used for testing.
 - Evaluation measures used are:
--- Accuracy
--- F1 score - micro
--- F1 score - macro
--- Confusion Matrix
+  - Accuracy
+  - F1 score - micro
+  - F1 score - macro
+  - Confusion Matrix
 - It is observed that precision and recall values are same.
 - Results can be seen in the Python notebook.
 
